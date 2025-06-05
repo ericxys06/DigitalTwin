@@ -11,7 +11,7 @@ with open('/Users/esun/Documents/positions.csv', newline='') as csvfile:
         ys.append(float(row['y']))
         zs.append(float(row['z']))
 
-#git commit test 2
+#git commit test 3
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.plot(xs, ys, zs, marker='o', markersize=2)
